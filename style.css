@@ -1,0 +1,69 @@
+body {
+  min-height: 2000px;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #5f5f5f;
+}
+
+h1 {
+  color: #fafafa;
+}
+
+.lead {
+  color: #fafafa;
+}
+
+#about {
+  padding-top: 8rem;
+}
+
+#projects {
+  padding-top: 10rem;
+}
+
+#contact {
+  padding-top: 10rem;
+}
+
+footer {
+  margin-top: 10rem;
+}
+
+.scrollup {
+  width: 100%;
+  height: 300vh;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #f84744;
+  bottom: 20px;
+  right: 30px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+
+.fa-arrow-up:before {
+  content: "\f062";
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card a:hover img {
+  transform: scale(1.1);
+}
+
+.card {
+  margin: 0 20px;
+}
