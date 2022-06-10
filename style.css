@@ -72,6 +72,13 @@ html {
   margin: 0 20px;
 }
 
+section h2 {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
 section h2::before {
   content: "";
   display: block;
@@ -92,11 +99,4 @@ section h2::after {
   height: 4px;
   background-color: #f84744;
   left: calc(50% - 20px);
-}
-
-section h2 {
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 20px;
-  position: relative;
 }
