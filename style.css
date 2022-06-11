@@ -100,3 +100,27 @@ section h2::after {
   background-color: #f84744;
   left: calc(50% - 20px);
 }
+
+.emailme {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 25vh;
+	-webkit-box-align: bottom;
+	    -ms-flex-align: bottom;
+	        align-items: bottom;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+	.st0{fill:#183153;}
+	.st1{fill:#E6EBE0;}
+	.st2{fill:#CBCCCA;}
+	.st3{fill:#183153;}
+	.st4{fill:#183153;}
+
+#mail-icon {
+	width: 120px;
+	cursor: pointer;
+}
