@@ -28,7 +28,7 @@ h1 {
 }
 
 #contact {
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 footer {
@@ -72,6 +72,12 @@ html {
   margin: 0 20px;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
 section h2 {
   padding-bottom: 20px;
   text-align: center;
@@ -102,25 +108,35 @@ section h2::after {
 }
 
 .emailme {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	height: 25vh;
-	-webkit-box-align: bottom;
-	    -ms-flex-align: bottom;
-	        align-items: bottom;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25vh;
+  -webkit-box-align: bottom;
+  -ms-flex-align: bottom;
+  align-items: bottom;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-	.st0{fill:#5CA4A9;}
-	.st1{fill:#E6EBE0;}
-	.st2{fill:#CBCCCA;}
-	.st3{fill:#183153;}
-	.st4{fill:#183153;}
+.st0 {
+  fill: #5ca4a9;
+}
+.st1 {
+  fill: #e6ebe0;
+}
+.st2 {
+  fill: #cbccca;
+}
+.st3 {
+  fill: #183153;
+}
+.st4 {
+  fill: #183153;
+}
 
 #mail-icon {
-	width: 120px;
-	cursor: pointer;
+  width: 120px;
+  cursor: pointer;
 }
